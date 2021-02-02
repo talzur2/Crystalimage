@@ -36,6 +36,7 @@ body {
  background-size: 0.01rem;
 
 }
+
 .product .img-responsive {
   margin: 0 auto;
 }
@@ -103,8 +104,8 @@ h3{
   line-height: 130%;
   color: #ffffff;
   text-align: center;
-
 }
+
 h4{
   font-family: 'Avenir Next LT Pro';
   font-style: normal;
@@ -120,6 +121,28 @@ p{
   font-size: 18px;
   line-height: 26px;
   color: #464646;
+}
+
+.sub{
+  font-family: 'Avenir Next LT Pro';
+  font-weight: 700;
+  font-size: 30px;
+  color:#464646;
+  position:absolute;
+  left:-6%;
+  top:-6%;
+  z-index: 10;;
+}
+
+.sub2{
+  font-family: 'Avenir Next LT Pro';
+  font-weight: 700;
+  font-size: 30px;
+  color:#464646;
+  position:absolute;
+  left:6%;
+  top:30%;
+  z-index: 10;;
 }
 .crystal {
   max-height: 40vh;
@@ -153,11 +176,11 @@ p{
   transform-origin: left center;
   transform: rotate(90deg) translateX(100%);
   font-family: 'Avenir Next LT Pro';
-  font-weight: 900;
-  font-size: 34px;
+  font-weight: 26px;
   color:#464646;
   position: fixed;
   z-index: 15;
+  font-weight: 900;
 }
 
 .all{
@@ -172,6 +195,7 @@ height: 80%;
 .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 1620px;
 }
+
 }
 
 .peaks {
