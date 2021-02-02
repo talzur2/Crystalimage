@@ -174,7 +174,7 @@ p{
 
 .rotate {
   transform-origin: left center;
-  transform: rotate(90deg) translateX(100%);
+  transform: rotate(90deg) translateX(-50%);
   font-family: 'Avenir Next LT Pro';
   font-weight: 26px;
   color:#464646;
@@ -184,7 +184,7 @@ p{
 }
 
 .all{
-height: 80%;
+
 }
 
 .sin {
