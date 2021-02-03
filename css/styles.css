@@ -57,8 +57,13 @@ left: 60%;
 
 }
 
+.img40{
+width:40vw;
+}
+
 section{
   position: relative;
+  overflow: hidden;
 }
 .container{
   border-left-color: #C3C3C3;
@@ -133,6 +138,13 @@ p{
   top:-6%;
   z-index: 10;;
 }
+.sub1{
+  font-family: 'Avenir Next LT Pro';
+  font-weight: 900;
+  font-size: 36px;
+  color:#464646;
+  top:-5%;
+}
 
 .sub2{
   font-family: 'Avenir Next LT Pro';
@@ -144,10 +156,21 @@ p{
   top:10%;
   z-index: 10;;
 }
+
+.sub3{
+  font-family: 'Avenir Next LT Pro';
+  font-weight: 900;
+  font-size: 36px;
+  color:#464646;
+  top:-10%;
+  left: 20%;
+  position:absolute
+}
 .crystal {
   max-height: 40vh;
-  max-width:100%
+  max-width:100%;
 }
+
 .vcenter {
   display: inline-block;
   vertical-align: middle;
