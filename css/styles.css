@@ -221,6 +221,27 @@ p{
 
 }
 
+@media (max-width: 768px){
+  .absolute{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: auto;
+    transform: none;
+  }
+  .absoluteright{
+    position: relative;
+    top: 0%;
+    left: 0;
+    width: auto;
+    transform: none;
+  }
+  .img40{
+    width: 100vw;
+  }
+
+}
+
 .peaks {
   max-width: 60%;
   margin: auto;
